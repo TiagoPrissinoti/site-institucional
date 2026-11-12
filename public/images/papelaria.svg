@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="none">
+  <defs>
+    <linearGradient id="desk" x2="1000" y2="1000" gradientUnits="userSpaceOnUse"><stop stop-color="#e8e3d9"/><stop offset="1" stop-color="#c7d0d2"/></linearGradient>
+    <linearGradient id="cover" x2="400" y2="700" gradientUnits="userSpaceOnUse"><stop stop-color="#315b7b"/><stop offset="1" stop-color="#173951"/></linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="12" dy="20" stdDeviation="18" flood-color="#203d4a" flood-opacity=".18"/></filter>
+    <pattern id="lines" width="260" height="26" patternUnits="userSpaceOnUse"><path d="M0 25H260" stroke="#bbcbd5" stroke-width="1"/></pattern>
+  </defs>
+  <path fill="url(#desk)" d="M0 0h1000v1000H0z"/>
+  <g transform="translate(570 90) rotate(13)" filter="url(#shadow)"><rect width="370" height="490" rx="5" fill="#b7a78a"/><rect x="16" y="19" width="338" height="445" rx="2" fill="#f8f6ed"/><rect x="116" y="-13" width="138" height="47" rx="9" fill="#8d9da4"/><rect x="133" y="-22" width="104" height="35" rx="10" stroke="#b5c2c6" stroke-width="6"/></g>
+  <g transform="translate(145 225) rotate(-12)" filter="url(#shadow)"><rect x="7" y="10" width="370" height="520" rx="12" fill="#e2e4de"/><rect width="365" height="515" rx="12" fill="url(#cover)"/><path d="M32 0v515" stroke="#587791" stroke-width="2"/><rect x="76" y="99" width="215" height="105" rx="3" stroke="#abc0cc" stroke-opacity=".5"/><path d="M116 141h132M133 162h98" stroke="#c4d3dc" stroke-width="2"/><path d="M325 0v515" stroke="#0d293d" stroke-width="12"/></g>
+  <g transform="translate(490 405) rotate(8)" filter="url(#shadow)"><rect width="285" height="385" rx="5" fill="#fbfaf5"/><path d="M35 55h215v275H35z" fill="url(#lines)"/><path d="M39 25v335" stroke="#c4b4ac"/><g stroke="#7f969f" stroke-width="5" stroke-linecap="round"><path d="M26 -7V12M62 -7V12M98 -7V12M134 -7V12M170 -7V12M206 -7V12M242 -7V12"/></g></g>
+  <g transform="translate(824 495) rotate(18)" filter="url(#shadow)"><path d="M0 0h17v320L8.5 350 0 320z" fill="#c69d64"/><path d="M0 0h17v295H0z" fill="#dcb578"/><path d="M5 0h7v295H5z" fill="#efd09c"/><path d="m5 338 3.5 12 3.5-12" fill="#243d4c"/><path d="M0 0h17v24H0z" fill="#2f5069"/></g>
+  <g transform="translate(76 740) rotate(-15)" filter="url(#shadow)"><rect width="280" height="57" rx="4" fill="#b4c3c7" fill-opacity=".8" stroke="#93a8b0"/><path d="M20 0v20m20-20v12m20-12v20m20-20v12m20-12v20m20-20v12m20-12v20m20-20v12m20-12v20m20-20v12m20-12v20m20-20v12" stroke="#4c6a78"/></g>
+</svg>
